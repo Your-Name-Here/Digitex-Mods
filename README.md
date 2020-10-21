@@ -10,7 +10,7 @@ Let me say that again.
 ## Legal Stuff
 *(The boring stuff)*
 
-If you use any of the code contained in this repository, you do so at your own risk. Neither me, the author of the software, or any contributer, nor the creators of the [Digitex Futures Exchange] will assume or claim any liability of fault if your account value is injured while using this software or not using it. There are inherit risks when trading securities of any type and you assume all the risk by using and of the files contained in this repository. By downloading or copying or using the code or file(s) in any way, you retain all risk and responsibility of it's usage. 
+If you use any of the code contained in this repository, you do so at your own risk. Neither me, the author of the software, or any contributor, nor the creators of the [Digitex Futures Exchange] will assume or claim any liability of fault if your account value is injured while using this software or not using it. There are inherit risks when trading securities of any type and you assume all the risk by using and of the files contained in this repository. By downloading or copying or using the code or file(s) in any way, you retain all risk and responsibility of it's usage. 
 
 # Goal
 
@@ -24,7 +24,10 @@ If you use any of the code contained in this repository, you do so at your own r
   - **Audio cues** when stop loss or take profit is hit (*Sorry hearing-impaired folks*)
   - **Browser notifications** when stop loss or take profit is hit
   - Enter orders using **keyboard hotkeys**
-    - With a panic hotkey *coming soon* (*Sorry impatient folks*)
+    - ALT + ↑ Places a long Market Order at currently selected contracts amount
+    - ALT + ↓ Places a short Market Order at currently selected contracts amount
+    - Flip Sides - hot key *coming soon*
+    - With a panic hot key *coming soon* (*Sorry impatient folks*)
   - **Risk Calculations** displayed directly on the UI (*Sorry blind folks*)
   - Easy to Install and use interface (*Not Sorry folks*)
 
@@ -32,16 +35,19 @@ More features are planned and feedback is always welcome. (*Sorry there is a typ
 ****
 ## Donations
 If you found this to be useful, funny and or made you money. Feel free to **buy me a beer** with 
+
 **DGTX 0x49642e5C95a2AB3aF0779dA5C216eEb35003C162**
+
 or 
+
 **BTC 1JRBsz8sSEd5WP218bxQrkbWKPcRgM7Ahn**
 ****
 
 ### Installation
 
-1. Go here and copy the "link to script" script.
-2. Open up your developer tools (F12 on Chrome) and click on the bottom of the console tab and paste (CTRL + V) then press enter.
-3. Add your API Key to line 19 of the script.
+1. Go here and copy the [Bracket Script].
+2. Open up your developer tools (F12 on Chrome) and click on the bottom of the console tab and paste (CTRL + V)
+3. Add your [API KEY] to line 19 of the script then press enter.
 4. Profit
 
 ### Todos
@@ -63,7 +69,8 @@ MIT
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
 
-   [bracketScript]: <https://github.com/joemccann/dillinger>
+   [Bracket Script]: <https://raw.githubusercontent.com/Your-Name-Here/Digitex-Mods/main/Minified/digitexbracket.min.js>
    [git-repo-url]: <https://github.com/Your-Name-Here/Digitex-Mods>
    [Digitex Futures Exchange]: <https://exchange.digitexfutures.com/>
    [Buy Lambo(t)]: <https://lambot.app>
+   [API KEY]: <https://exchange.digitexfutures.com/profile/api>
