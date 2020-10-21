@@ -16,7 +16,7 @@ const LIMIT     = 6; // DO NOT EDIT THIS LINE
 /* ----------------------------------------- SETTINGS ----------------------------------------- */
 
 var SETTINGS = {
-    api_key: 'a5133991c31f3d7e006913e592b057f60c1544a1',
+    api_key: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
     tick_size: 1,
     tp_distance: 3,
     sl_distance: 2,
