@@ -42,9 +42,9 @@ or
 
 ### Installation
 
-1. Go here and copy the "link to script" script.
+1. Go here and copy the [Bracket Script].
 2. Open up your developer tools (F12 on Chrome) and click on the bottom of the console tab and paste (CTRL + V)
-3. Add your API Key to line 19 of the script then press enter.
+3. Add your [API KEY] to line 19 of the script then press enter.
 4. Profit
 
 ### Todos
@@ -66,7 +66,8 @@ MIT
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
 
-   [bracketScript]: <https://raw.githubusercontent.com/Your-Name-Here/Digitex-Mods/main/Minified/digitexbracket.min.js>
+   [Bracket Script]: <https://raw.githubusercontent.com/Your-Name-Here/Digitex-Mods/main/Minified/digitexbracket.min.js>
    [git-repo-url]: <https://github.com/Your-Name-Here/Digitex-Mods>
    [Digitex Futures Exchange]: <https://exchange.digitexfutures.com/>
    [Buy Lambo(t)]: <https://lambot.app>
+   [API KEY]: <https://exchange.digitexfutures.com/profile/api>
