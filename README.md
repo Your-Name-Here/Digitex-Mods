@@ -32,8 +32,11 @@ More features are planned and feedback is always welcome. (*Sorry there is a typ
 ****
 ## Donations
 If you found this to be useful, funny and or made you money. Feel free to **buy me a beer** with 
+
 **DGTX 0x49642e5C95a2AB3aF0779dA5C216eEb35003C162**
+
 or 
+
 **BTC 1JRBsz8sSEd5WP218bxQrkbWKPcRgM7Ahn**
 ****
 
