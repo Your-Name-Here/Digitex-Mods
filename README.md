@@ -10,7 +10,7 @@ Let me say that again.
 ## Legal Stuff
 *(The boring stuff)*
 
-If you use any of the code contained in this repository, you do so at your own risk. Neither me, the author of the software, or any contributer, nor the creators of the [Digitex Futures Exchange] will assume or claim any liability of fault if your account value is injured while using this software or not using it. There are inherit risks when trading securities of any type and you assume all the risk by using and of the files contained in this repository. By downloading or copying or using the code or file(s) in any way, you retain all risk and responsibility of it's usage. 
+If you use any of the code contained in this repository, you do so at your own risk. Neither me, the author of the software, or any contributor, nor the creators of the [Digitex Futures Exchange] will assume or claim any liability of fault if your account value is injured while using this software or not using it. There are inherit risks when trading securities of any type and you assume all the risk by using and of the files contained in this repository. By downloading or copying or using the code or file(s) in any way, you retain all risk and responsibility of it's usage. 
 
 # Goal
 
