@@ -256,7 +256,7 @@ class Position extends OrderType {
                     "ordType": (this.TPOrdType == MARKET ? 'MARKET' : 'LIMIT'),
                     "timeInForce": "GTC",
                     "side": this.conditionalSide,
-                    "px": this.TPOrdType == LIMIT ? this.TP - (SETTING.tick_size * 2) : this.TP,
+                    "px": this.TPOrdType == LIMIT ? this.TP - (SETTINGS.tick_size * 2) : this.TP,
                     "qty": this.contracts,
                     "mayIncrPosition": false
                 }
