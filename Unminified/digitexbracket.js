@@ -242,7 +242,13 @@ class Position extends OrderType {
             this.plotOnLadder();
         }
     }
-    sendConditionals(both = true) {
+    sendConditionals(both = true) { 
+        var i;
+        if (this.TPOrdType == LIMIT && this.side == 'sell') {
+            i = this.TP + (SETTINGS.tick_size * 2);
+        } else if (this.TPOrdType == LIMIT && this.side == buy) {
+            i = this.TP - (SETTINGS.tick_size * 2);
+        }
             const TP_PARAMS = { //Send TP
                 "id": 5, // 5 is placing a TP
                 "method": "placeCondOrder",
@@ -251,12 +257,12 @@ class Position extends OrderType {
                     "actionId": 'TP_' + uuid(),
                     "pxType": this.pxType,
                     "condition": this.TPCondition,
-                    "pxValue": this.TP,
+                    "pxValue": i,
                     "clOrdId": this.id,
                     "ordType": (this.TPOrdType == MARKET ? 'MARKET' : 'LIMIT'),
                     "timeInForce": "GTC",
                     "side": this.conditionalSide,
-                    "px": this.TPOrdType == LIMIT ? this.TP - (SETTINGS.tick_size * 2) : this.TP,
+                    "px": this.TP,
                     "qty": this.contracts,
                     "mayIncrPosition": false
                 }
