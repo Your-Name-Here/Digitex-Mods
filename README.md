@@ -24,7 +24,10 @@ If you use any of the code contained in this repository, you do so at your own r
   - **Audio cues** when stop loss or take profit is hit (*Sorry hearing-impaired folks*)
   - **Browser notifications** when stop loss or take profit is hit
   - Enter orders using **keyboard hotkeys**
-    - With a panic hotkey *coming soon* (*Sorry impatient folks*)
+    - ALT + ↑ Places a long Market Order at currently selected contracts amount
+    - ALT + ↓ Places a short Market Order at currently selected contracts amount
+    - Flip Sides - hot key *coming soon*
+    - With a panic hot key *coming soon* (*Sorry impatient folks*)
   - **Risk Calculations** displayed directly on the UI (*Sorry blind folks*)
   - Easy to Install and use interface (*Not Sorry folks*)
 
