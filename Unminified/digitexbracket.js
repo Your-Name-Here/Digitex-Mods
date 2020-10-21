@@ -246,7 +246,7 @@ class Position extends OrderType {
         var i;
         if (this.TPOrdType == LIMIT && this.side == 'sell') {
             i = this.TP + (SETTINGS.tick_size * 2);
-        } else if (this.TPOrdType == LIMIT && this.side == buy) {
+        } else if (this.TPOrdType == LIMIT && this.side == 'buy') {
             i = this.TP - (SETTINGS.tick_size * 2);
         }
             const TP_PARAMS = { //Send TP
